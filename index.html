@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--fonts awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--animate style-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!--aos-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <div class="header m-2" id="#home">
+      <nav class="navbar navbar-expand-lg pt-4 animate_animated animate_fadeInDown animate-delay-3s">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Bootstrap" width="50px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a href="#home" class="nav-link">Home</a>
+              <a  href="#skill"class="nav-link">Skill</a>
+              <a  href="#about"class="nav-link">About</a>
+              <a  href="#project"class="nav-link">Project</a>
+              <a  href="#services"class="nav-link">Services</a>
+            </div>
+            <button class="btn btn-outline-secondary">Contact Me</button>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row d-flex align-items-center row-cols-lg-2 row-cols-1">
+          <div class="col mb-lg-0 mb-5" data-aos="zoom-out-right">
+            <h1 class="fw-bold mb-4 animate_animated animate_fadeInUp animate-delay-1s">Welcome To YG ENTERTAIMENT</h1>
+            <p class="lh-lg">
+              YG Entertainment adalah perusahaan hiburan asal Korea Selatan yang
+              didirikan pada 1996 di Seoul, Korea Selatan.
+            </p>
+            <div class="d-flex align-content-center mt-4">
+              <i class="fa-solid fa-people-roof fs-1 me-3"></i>
+              <p class="lh-lg m-0">Pada Maret 1996, Yang Hyun-suk mendirikan YG Entertainment bersama sang adik.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-self-end position-relative" >
+            <img src="img/yang hyung suk.png" alt="ceo" />
+            <img
+              src="img/bg3.png"
+              alt="bg"
+              class="position-absolute top-50 start-50 translate-middle"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+<!--header-->
+
+<!--skill-->
+    <section class="skills d-flex align-items-center pt-md-0 pt-5" id="skill">
+      <div class="container">
+        <h1 class="fw-bold text-center mb-5">Skills</h1>
+        <div class="row text-center d-flex justify-content-between justify-content-lg-evenly">
+          <div class="col col-md-3 col-12 mb-md-0 mb-3" data-aos="fade-up"
+     data-aos-duration="900">
+            <i class="fa-solid fa-layer-group"></i>
+            <h6 class="opacity-50 my-1">4 years</h6>
+            <h5 class="fw-bold">Perusahaan hiburan </h5>
+            <p> perusahaan hiburan asal Korea Selatan yang didirikan pada 1996 di Seoul, Korea Selatan.</p>
+          </div>
+          <div class="col col-md-3 col-12 mb-md-0 mb-3" data-aos="fade-up"
+     data-aos-duration="900">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h6 class="opacity-50 my-1">2 years</h6>
+            <h5 class="fw-bold">Agensi pencari bakat</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In tempora distinctio explicabo.</p>
+          </div>
+          <div class="col col-md-3 col-12 mb-md-0 mb-3" data-aos="fade-up"
+     data-aos-duration="900">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h6 class="opacity-50 my-1">2 years</h6>
+            <h5 class="fw-bold">label rekaman</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In tempora distinctio explicabo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--about-->
+    <section class="about m-3" id="about">
+      <div class="container">
+        <div class="row row-cols-lg-2 row-cols-1 d-flex align-items-center justify-content-between">
+          <div class="col position-relative align-self-end mx-auto" >
+            <img src="img/about.png" alt="">
+          </div>
+          <div class="col col-lg-5" data-aos="zoom-out-left" data-aos-duration="500">
+            <h1 class="fw-bold mb-4">About Me</h1>
+            <p class="desc lh-lg mb-4">YG Entertainment (Hangul: YG 엔터테인먼트) adalah perusahaan hiburan asal Korea Selatan yang didirikan pada 1996 di Seoul, Korea Selatan. "YG" merupakan singkatan dari Yang Gun (양군) yang diambil dari nama panggilan sang pendiri sekaligus produser eksekutif, Yang hyun-suk.Perusahaan ini beroperasi sebagai label rekaman, agen pencari bakat, perusahaan produksi musik dan konser, manajemen acara dan penerbit musik, distribusi musk dan merchandise. Selain itu, perusahaan ini juga mengoperasikan sejumlah perusahaan anak, termasuk lini pakaian, manajemen golf dan merek kosmetik.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--project-->
+    <section class="project" id="project">
+      <div class="container">
+        <h1 class="text-center fw-bold mb-4">Project</h1>
+        <div class="row">
+          <div class="col" data-aos="fade-up"
+     data-aos-duration="3000" >
+            <img src="img/2ne1 2.jpg" alt="" class="">
+            <h5 class="fw-bold">2ne1</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto.</p>
+          </div>
+          <div class="col" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="img/akmu.png" alt="">
+            <h5 class="fw-bold">Akmu</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto.</p>
+          </div>
+          <div class="col" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="img/babymonster.jpeg" alt="">
+            <h5  class="fw-bold">Baby Monster</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto.</p>
+          </div>
+          <div class="col" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="img/blackpink2.png" alt="">
+            <h5 class="fw-bold">Blackpink</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto.</p>
+          </div>
+          <div class="col" data-aos="fade-up"
+     data-aos-duration="3000">
+            <img src="img/winner.jpg" alt="">
+            <h5 class="fw-bold">Winner</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, architecto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--services-->
+<section class="services" id="services">
+  <div class="container">
+    <h1 class="fw-bold mb-5 mt-4 text-center">Services</h1>
+    <div class="row row-cols-1 row-cols-lg-3 gx-lg-5 gx-0 px-sm-0 px-2">
+      <div class="col mb-lg-0 mb-3" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <h5 class="fw-bold border-bottom border-secondary border-2 pb-2">YGX</h5>
+        <p>YGX merupakan unit usaha YG Entertainment yang bergerak dibidang tari terutama genre hip-hop, setelah sempat bergerak dibidang label rekaman dan manajemen artist.</p>
+      </div>
+      <div class="col mb-lg-0 mb-3" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <h5 class="fw-bold border-bottom border-secondary border-2 pb-2">YG Japan</h5>
+        <p>YG Japan (YG Entertainment Japan) didirikan pada 2007 sebagai anak usaha YG Entertainment di Jepang untuk mempermudah pengelolaan aktifitas artis-artis YG di negara tersebut. .</p>
+      </div>
+      <div class="col mb-lg-0 mb-3" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+        <h5 class="fw-bold border-bottom border-secondary border-2 pb-2">YG Plus, Inc</h5>
+        <p>YG Plus Inc. adalah perusahaan media dan iklan yang didirikan oleh YG Entertainment pada Oktober 2014 sebagai hasil dari pengambilalihan perusahaan periklanan Phoenix Holdings Inc, sebuah perusahaan anak dari Bogwang Group.</p>
+    </div>
+  </div>
+</section>
+<!--footer-->
+<section class="footer d-flex align-items-center py-lg-0 py-5 m-3">
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="col col-lg-5 col-12 mb-lg-0 mb-4">
+        <h3 class="fw-bold">Idol Group</h3>
+        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eum!</p>
+      </div>
+      <div class="col col-lg-2 col-12 d-flex flex-column mb-lg-0 mb-4">
+        <h5 class="fw-bold ">Menu</h5>
+        <a href="#home" class="text-decoration-none mb-2">Home</a>
+        <a href="#skill" class="text-decoration-none mb-2">Skills</a>
+        <a href="#about" class="text-decoration-none mb-2">About</a>
+        <a href="#project" class="text-decoration-none mb-2">Project</a>
+        <a href="#services" class="text-decoration-none">Services</a>
+      </div>
+      <div class="col col-lg-2 col-12 d-flex flex-column mb-lg-0 mb-4">
+        <h5 class="fw-bold">Follow Me</h5>
+        <a href="https://www.facebook.com/ygfamily/" class="text-decoration-none mb-2">Facebook</a>
+        <a href="https://www.instagram.com/yg_ent_official/" class="text-decoration-none mb-2">Instagram</a>
+        <a href="https://twitter.com/ygent_official?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-decoration-none">Twitter</a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!--copyright-->
+<section class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="text-center mb-0 py-3">&copy; copyright by <span class="fw-bold">Noval afandi</span> 2023 All Right Reserved Indonesia</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <!--js-->
+    <script src="script.js"></script>
+    <!--aos-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
